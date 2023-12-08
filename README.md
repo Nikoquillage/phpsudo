@@ -18,7 +18,7 @@ head>
 /head>
 
 body>
-<div id="grille"></div>
+div id="grille">/div>
 
 <script type="text/javascript">
 $(function() {
