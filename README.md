@@ -10,14 +10,14 @@ significant amount of time, ranging from 5 seconds to 1 minute, depending on the
 
 Integration :
 
-<head>
+head>
 <script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
 <script src="js/phpsudo.js.php" type="text/javascript"></script>
 
 ...
-</head>
+/head>
 
-<body>
+body>
 <div id="grille"></div>
 
 <script type="text/javascript">
@@ -34,7 +34,7 @@ $(function() {
 </script>
 
 ...
-</body>
+/body>
 
 TailleCasePX : size of a box in pixels
 Dimension : you can default to displaying a grid type  (9*3, 6*2, …)
