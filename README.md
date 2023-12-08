@@ -9,19 +9,6 @@ The application integrates real-time correction and includes a timer to allow yo
 This version does not rely on a database. The grids are generated each time the application is used. It would be beneficial to consider storing the grids to significantly improve the performance of the application. 
 The computation of a grid can sometimes take a significant amount of time, ranging from 5 seconds to 1 minute, depending on the selected size and difficulty. 
 
-Integration :
-
-head>
-<script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
-<script src="js/phpsudo.js.php" type="text/javascript"></script>
-
-...
-/head>
-
-body>
-div id="grille">/div>
-
-<script type="text/javascript">
 $(function() {
     $('#grille').PhpSudo({
         'TailleCasePX': '35',
@@ -32,10 +19,6 @@ $(function() {
         'GenererNouvelleGrille': true
     });
 });
-</script>
-
-...
-/body>
 
 TailleCasePX : size of a box in pixels
 Dimension : you can default to displaying a grid type  (9*3, 6*2, …)
