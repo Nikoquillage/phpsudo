@@ -1,4 +1,4 @@
-# phpsudo
+# phpsudo (script php / javascript, jquery)
 
 The application allows the generation of grids of any type, always ensuring a unique solution. It offers grids in various formats, ranging from 4×4 to 16×16, providing the option to use letters, numbers, or even a combination of both.
 
