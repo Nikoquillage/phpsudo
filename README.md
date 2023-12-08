@@ -6,7 +6,6 @@ The application integrates real-time correction and includes a timer to allow yo
 
 This version does not rely on a database. The grids are generated each time the application is used. It would be beneficial to consider storing the grids to significantly improve the performance of the application. 
 The computation of a grid can sometimes take a significant amount of time, ranging from 5 seconds to 1 minute, depending on the selected size and difficulty. 
-significant amount of time, ranging from 5 seconds to 1 minute, depending on the selected size and difficulty.
 
 Integration :
 
