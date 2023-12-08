@@ -44,4 +44,4 @@ TailleTexte : size of the text in the boxes
 
 The grid uses a "template," so you can easily change colors, fonts, and the layout of the game.
 
-
+Demo : http://phpsudo.free.fr
